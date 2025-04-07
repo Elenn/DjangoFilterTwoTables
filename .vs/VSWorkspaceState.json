@@ -1,7 +1,9 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\filterTwoTables",
+    "\\filterTwoTables\\author"
   ],
-  "SelectedNode": "\\C:\\web\\Projects\\DjangoFilterTwoTables",
+  "SelectedNode": "\\filterTwoTables\\author\\admin.py",
   "PreviewInSolutionExplorer": false
 }

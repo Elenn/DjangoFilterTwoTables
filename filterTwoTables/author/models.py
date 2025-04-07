@@ -7,3 +7,12 @@ class Author(models.Model):
 class Book(models.Model):
     title = models.CharField(max_length=100)
     author_email = models.EmailField()  # Common field, but not a ForeignKey
+
+class Department(models.Model):
+    code = models.CharField(max_length=100)  # Common field
+    name = models.CharField(max_length=100) 
+
+class Student(models.Model):
+    code = models.CharField(max_length=100)  # Common field
+    value = models.CharField(max_length=100)
+    data = models.TextField()
